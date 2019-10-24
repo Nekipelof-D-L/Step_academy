@@ -25,6 +25,9 @@ int TCircle::cointainsPoint(short X, short Y) {
 	return result;
 };
 
+//
+
+
 void TCircle::Print() {
 	consoleSetColors(clLightRed, clLightRed);
 	for (int i = (x - r); i <= (x + r); i++) {
